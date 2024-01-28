@@ -56,7 +56,7 @@ This repository is a curated resource guide designed to help data analysts under
 - **Accessibility**: Available to healthcare researchers, analysts, and policymakers for data-driven decision-making.
 - [Learn More About CCSR](#ccsr-link)
 
-- 
+
 ### CPT Codes (Current Procedural Terminology)
 - **Description**: Describes medical, surgical, and diagnostic services and procedures.
 - **Purpose**: Essential for billing and coding, providing a standardized system for medical procedures.
@@ -85,7 +85,56 @@ This repository is a curated resource guide designed to help data analysts under
 - **Data Format**: Alphanumeric codes, including a single letter followed by four digits (e.g., G0008 for flu vaccination administration).
 - [Learn More About HCPCS](#hcpcs-link)
 
+### RVU (Relative Value Unit)
+- **Description**: A system that assigns value to medical services to standardize costs based on time, skill, and resources required.
+- **Purpose**: Utilized in calculating physician reimbursement rates, especially in the Medicare Physician Fee Schedule, and widely adopted in other healthcare reimbursement models.
+- **Update Frequency**: Quarterly
+- **Data Format**: Numerical values, often represented in a table format alongside corresponding medical services. For example, a specific procedure might have a Work RVU of 3.00, a Practice Expense RVU of 1.50, and a Malpractice RVU of 0.30.
 
+- [Learn More About RVU](#rvu-link)
+
+### ASA Classification (American Society of Anesthesiologists Physical Status Classification System)
+- **Description**: A classification system used to assess a patient’s pre-anesthesia medical comorbidities.
+- **Purpose**: Helps in estimating anesthesia risk and planning patient care by providing a standardized way to communicate patient health status.
+- **Update Frequency**: Revised as needed, based on updates in clinical practice guidelines and anesthesiology research.
+- **Data Format**: Categorical scale ranging from ASA I to ASA VI. For example, ASA I indicates a healthy patient, ASA II a patient with mild systemic disease, and ASA III a patient with severe systemic disease.
+- [Learn More About ASA Classification](#asa-link)
+
+### DRG (Diagnosis-Related Group)
+- **Description**: Classifies hospital cases for expected similar hospital resource use.
+- **Purpose**: Used for hospital billing and Medicare reimbursement determinations.
+- **Update Frequency**: 
+- **Data Format**: Numerical codes (e.g., DRG 291 - Heart Failure & Shock with MCC).
+- [Learn More About DRG](#drg-link)
+
+### APC (Ambulatory Payment Classification)
+- **Description**: A classification for outpatient services.
+- **Purpose**: Determines reimbursement for outpatient services under Medicare.
+- **Update Frequency**: 
+- **Data Format**: Numerical codes (e.g., APC 5072 - Level 2 Excision/Biopsy).
+- [Learn More About APC](#apc-link)
+
+### HCC (Hierarchical Condition Categories)
+- **Description**: A risk adjustment model predicting future healthcare costs.
+- **Purpose**: Used in Medicare Advantage for adjusting payments based on patient risk.
+- **Update Frequency**: 
+- **Data Format**: Categorical codes (e.g., HCC 19 - Diabetes without Complication).
+- [Learn More About HCC](#hcc-link)
+
+### NPI (National Provider Identifier)
+- **Description**: A unique identifier for healthcare providers in the U.S.
+- **Purpose**: Identifies healthcare providers in standard transactions like healthcare claims.
+- **Update Frequency**: N/A (static per provider, updates as provider information changes).
+- **Data Format**: 10-digit number (e.g., 1234567890).
+- [Learn More About NPI](#npi-link)
+
+### LOINC (Logical Observation Identifiers Names and Codes)
+- **Description**: Identifiers for health measurements, observations, and documents.
+- **Purpose**: Facilitates the exchange of clinical results and data.
+- **Update Frequency**: Regularly (approximately biannually).
+- **Data Format**: Alphanumeric codes (e.g., 4548-4 - Hemoglobin A1c/Hemoglobin.total in Blood).
+- [Learn More About LOINC](#loinc-link)
+  
 ## Additional Resources
 
 - **Books and Journals**: Publications on healthcare informatics and data management.
@@ -95,4 +144,4 @@ This repository is a curated resource guide designed to help data analysts under
 
 ---
 
-This guide is intended to provide a foundational understanding for those new to healthcare analytics and will be updated as the field evolves.
+This guide is intended to provide a foundational understanding for those new to healthcare analytics and will be updated as the field evolves. 
